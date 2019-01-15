@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "BaiduMap_City"
-  s.version      = "0.0.1"
+  s.version      = "1.0.0"
   s.summary      = "A short description of BaiduMap_City."
 
   # This description is used to generate tags and improve search results.
@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   s.description  = <<-DESC
                    DESC
 
-  s.homepage     = "http://EXAMPLE/BaiduMap_City"
+  s.homepage     = "https://github.com/randy-Zhang/BaiduMap_City"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -38,7 +38,7 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "MIT (example)"
+  s.license      = { :type => "MIT", :file => "LICENSE" }
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -52,7 +52,7 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "张昌伟" => "zhangchangwei@cityhouse.cn" }
+  s.author             = { "张昌伟" => "908990229@qq.com" }
   # Or just: s.author    = "张昌伟"
   # s.authors            = { "张昌伟" => "zhangchangwei@cityhouse.cn" }
   # s.social_media_url   = "http://twitter.com/张昌伟"
@@ -79,7 +79,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "http://EXAMPLE/BaiduMap_City.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/randy-Zhang/BaiduMap_City.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
